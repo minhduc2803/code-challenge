@@ -28,37 +28,45 @@ This application follows clean architecture principles:
 
 ## Installation
 
-### 1. Clone the repository:
+### 1. Install dependencies:
 
-git clone https://github.com/yourusername/book-api.git cd book-api
-
-### 2. Install dependencies:
-
+```bash
 npm install
+```
 
-### 3. Set up environment variables:
+### 2. Set up environment variables:
 
+```bash
 cp .env.example .env
+```
 
 Edit the `.env` file to match your PostgreSQL configuration.
 
-### 4. Initialize the database:
+### 3. Initialize the database:
 
+```bash
 npm run init
+```
 
-### 5. Build the application:
+### 4. Build the application:
 
+```bash
 npm run build
+```
 
 ## Running the Application
 
 ### Development Mode
 
+```bash
 npm run dev
+```
 
 ### Production Mode
 
+```bash
 npm start
+```
 
 The server will start on port 3000 by default. You can change this by setting the `PORT` environment variable in the `.env` file.
 
