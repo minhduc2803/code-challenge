@@ -1,0 +1,190 @@
+.formContainer {
+    padding: 1.5rem;
+  }
+  
+  .formGroup {
+    margin-bottom: 1rem;
+  }
+  
+  .label {
+    display: block;
+    color: #94a3b8;
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+  }
+  
+  .inputContainer {
+    background-color: #2d3748;
+    border-radius: 0.75rem;
+    padding: 1rem;
+  }
+  
+  .tokenInputGroup {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .amountInputWrapper {
+    flex-grow: 1;
+  }
+  
+  .amountInput {
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    text-align: right;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    padding: 0;
+  }
+  
+  .balance {
+    text-align: right;
+    color: #94a3b8;
+    font-size: 0.75rem;
+    margin: 0.25rem 0 0 0;
+  }
+  
+  .calculatedAmount {
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    text-align: right;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  
+  .exchangeRate {
+    text-align: right;
+    color: #94a3b8;
+    font-size: 0.75rem;
+    margin: 0.25rem 0 0 0;
+  }
+  
+  .swapButtonContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    z-index: 10;
+  }
+  
+  .swapButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2d3748;
+    border-radius: 50%;
+    padding: 0.5rem;
+    border: 1px solid #4a5568;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  
+  .swapIcon {
+    height: 1.5rem;
+    width: 1.5rem;
+    color: #60a5fa;
+  }
+  
+  .errorMessage {
+    margin-bottom: 1rem;
+    padding: 0.75rem 1rem;
+    background-color: rgba(220, 38, 38, 0.1);
+    border: 1px solid rgba(220, 38, 38, 0.3);
+    border-radius: 0.5rem;
+  }
+  
+  .errorMessage p {
+    color: #f87171;
+    font-size: 0.875rem;
+    margin: 0;
+  }
+  
+  .submitButton {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border-radius: 0.75rem;
+    font-weight: 500;
+    font-size: 1rem;
+    color: white;
+    background: linear-gradient(to right, #3b82f6, #8b5cf6);
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .submitButton:hover:not(:disabled) {
+    background: linear-gradient(to right, #2563eb, #7c3aed);
+  }
+  
+  .submitButtonDisabled {
+    background: #4b5563;
+    cursor: not-allowed;
+  }
+  
+  .loadingButtonContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .buttonSpinner {
+    height: 1.25rem;
+    width: 1.25rem;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-top-color: white;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-right: 0.5rem;
+  }
+  
+  .successButtonContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #86efac;
+  }
+  
+  .successIcon {
+    height: 1.25rem;
+    width: 1.25rem;
+    margin-right: 0.5rem;
+  }
+  
+  .loadingContainer {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .spinner {
+    height: 3rem;
+    width: 3rem;
+    border: 4px solid rgba(59, 130, 246, 0.2);
+    border-top-color: #3b82f6;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 0 auto;
+  }
+  
+  .loadingText {
+    color: #94a3b8;
+    margin-top: 1rem;
+  }
+  
+  .errorContainer {
+    padding: 2rem;
+    text-align: center;
+    color: #f87171;
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

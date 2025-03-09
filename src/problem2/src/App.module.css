@@ -1,0 +1,45 @@
+.container {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #1a202c 0%, #0f1623 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .formWrapper {
+    width: 100%;
+    max-width: 450px;
+  }
+  
+  .card {
+    background-color: #1e293b;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  .header {
+    padding: 1.5rem 2rem;
+    background: linear-gradient(to right, #3b82f6, #8b5cf6);
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+  }
+  
+  .subtitle {
+    color: rgba(219, 234, 254, 0.9);
+    margin: 0.25rem 0 0 0;
+    font-size: 0.875rem;
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 1rem;
+    color: #94a3b8;
+    font-size: 0.875rem;
+  }
+  
