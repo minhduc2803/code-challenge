@@ -45,7 +45,7 @@ Edit the `.env` file to match your PostgreSQL configuration.
 ### 3. Initialize the database:
 
 ```bash
-npm run init
+npm run db:init
 ```
 
 ### 4. Build the application:
@@ -69,6 +69,20 @@ npm start
 ```
 
 The server will start on port 3000 by default. You can change this by setting the `PORT` environment variable in the `.env` file.
+
+## Testing
+
+This project includes comprehensive unit and integration tests to ensure code quality and functionality.
+
+### Running Tests
+
+```bash
+# Run all tests
+npm test
+
+# Run tests in watch mode (useful during development)
+npm run test:watch
+```
 
 # Book API Endpoints
 
